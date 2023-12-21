@@ -46,7 +46,7 @@ function App() {
       <div className="meme-creator">
         <span id='top-line-span'>{topLine}</span>
         <span id='bottom-line-span'>{bottomLine}</span>
-        <img src={"/img/" + meme + ".jpg"} alt={""+meme} id='img-meme'/>
+        <img src={"/img/" + meme + ".jpg"} id='img-meme'/>
       </div>
     </div>
   );
